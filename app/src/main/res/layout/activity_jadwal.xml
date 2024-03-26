@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/white"
+  tools:context=".JadwalActivity">
+
+  <androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/blue"
+    android:elevation="4dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Jadwal Kuliah"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+  </androidx.appcompat.widget.Toolbar>
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-53dp">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="?attr/actionBarSize"
+      android:orientation="vertical"
+      android:padding="32dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+      <!-- Senin -->
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+          android:layout_width="80dp"
+          android:layout_height="wrap_content"
+          android:text="Senin"
+          android:textColor="@color/black"
+          android:textSize="24dp"
+          android:textStyle="bold"
+
+          />
+
+        <Space
+          android:layout_width="24dp"
+          android:layout_height="match_parent" />
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Bahasa Inggris"
+              android:textColor="@color/black"
+              android:textSize="16dp" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="13:00-15:30"
+              android:textColor="@color/grey"
+              android:textSize="12dp" />
+          </LinearLayout>
+
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="16dp"
+        android:alpha="0.5"
+        android:background="@color/black" />
+
+      <!-- Selasa -->
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+          android:layout_width="80dp"
+          android:layout_height="wrap_content"
+          android:text="Selasa"
+          android:textColor="@color/black"
+          android:textSize="24dp"
+          android:textStyle="bold"
+
+          />
+
+        <Space
+          android:layout_width="24dp"
+          android:layout_height="match_parent" />
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Pemprograman Mobile"
+              android:textColor="@color/black"
+              android:textSize="16dp" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="09:30-11:10"
+              android:textColor="@color/grey"
+              android:textSize="12dp" />
+          </LinearLayout>
+
+          <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="13:00-14:40"
+              android:textColor="@color/grey"
+              android:textSize="12dp" />
+          </LinearLayout>
+
+          <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Praktikum Pemprograman Mobile"
+              android:textColor="@color/black"
+              android:textSize="16dp" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Pembelajaran Mesin"
+              android:textColor="@color/black"
+              android:textSize="16dp" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="15:00-16:40"
+              android:textColor="@color/grey"
+              android:textSize="12dp" />
+          </LinearLayout>
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="16dp"
+        android:alpha="0.5"
+        android:background="@color/black" />
+
+      <!-- Rabu -->
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+          android:layout_width="80dp"
+          android:layout_height="wrap_content"
+          android:text="Rabu"
+          android:textColor="@color/black"
+          android:textSize="24dp"
+          android:textStyle="bold"
+
+          />
+
+        <Space
+          android:layout_width="24dp"
+          android:layout_height="match_parent" />
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Praktikum Pembelajaran Mesin"
+              android:textColor="@color/black"
+              android:textSize="16dp" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="13:00-14:40"
+              android:textColor="@color/grey"
+              android:textSize="12dp" />
+          </LinearLayout>
+
+          <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Sistem Terdistribusi"
+              android:textColor="@color/black"
+              android:textSize="16dp" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="14:40-17:10"
+              android:textColor="@color/grey"
+              android:textSize="12dp" />
+          </LinearLayout>
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="16dp"
+        android:alpha="0.5"
+        android:background="@color/black" />
+
+      <!-- Kamis -->
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+          android:layout_width="80dp"
+          android:layout_height="wrap_content"
+          android:text="Kamis"
+          android:textColor="@color/black"
+          android:textSize="24dp"
+          android:textStyle="bold"
+
+          />
+
+        <Space
+          android:layout_width="24dp"
+          android:layout_height="match_parent" />
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Sistem Pakar"
+              android:textColor="@color/black"
+              android:textSize="16dp" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="08:00-10:30"
+              android:textColor="@color/grey"
+              android:textSize="12dp" />
+          </LinearLayout>
+
+          <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Internet of Things"
+              android:textColor="@color/black"
+              android:textSize="16dp" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="13:00-15:30"
+              android:textColor="@color/grey"
+              android:textSize="12dp" />
+          </LinearLayout>
+
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="16dp"
+        android:alpha="0.5"
+        android:background="@color/black" />
+
+      <!-- Jumat -->
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+          android:layout_width="80dp"
+          android:layout_height="wrap_content"
+          android:text="Jumat"
+          android:textColor="@color/black"
+          android:textSize="24dp"
+          android:textStyle="bold"
+
+          />
+
+        <Space
+          android:layout_width="24dp"
+          android:layout_height="match_parent" />
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Computer Vision"
+              android:textColor="@color/black"
+              android:textSize="16dp" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="13:00-15:30"
+              android:textColor="@color/grey"
+              android:textSize="12dp" />
+          </LinearLayout>
+
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="16dp"
+        android:alpha="0.5"
+        android:background="@color/black" />
+
+      <!-- Sabtu -->
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+          android:layout_width="80dp"
+          android:layout_height="wrap_content"
+          android:text="Sabtu"
+          android:textColor="@color/black"
+          android:textSize="24dp"
+          android:textStyle="bold"
+
+          />
+
+        <Space
+          android:layout_width="24dp"
+          android:layout_height="match_parent" />
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Visualisasi Data"
+              android:textColor="@color/black"
+              android:textSize="16dp" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="08:00-10:30"
+              android:textColor="@color/grey"
+              android:textSize="12dp" />
+          </LinearLayout>
+
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+
+    </LinearLayout>
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
